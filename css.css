@@ -29,7 +29,6 @@ body {
 	padding-bottom: 2rem;
 }
 
-/* Scanline Effect */
 .scanline {
 	position: fixed;
 	top: 0;
@@ -63,7 +62,6 @@ body {
 	padding: 1rem;
 }
 
-/* Header */
 .site-header {
 	background: #000;
 	border-bottom: 1px solid var(--border-color);
@@ -101,7 +99,6 @@ body {
 	box-shadow: 0 0 10px var(--text-color);
 }
 
-/* Layout */
 .main-grid {
 	display: grid;
 	grid-template-columns: 280px 1fr;
@@ -121,7 +118,6 @@ body {
 	padding: 1.5rem;
 }
 
-/* Mock Terminal Interface Buttons */
 .terminal-header {
 	position: absolute;
 	top: -24px;
@@ -162,7 +158,6 @@ body {
 	font-family: sans-serif;
 }
 
-/* Profile */
 .profile {
 	text-align: center;
 }
@@ -318,7 +313,6 @@ a {
 	font-style: italic;
 }
 
-/* Footer */
 .site-footer {
 	margin-top: 3rem;
 	padding: 1rem 0;
@@ -328,7 +322,6 @@ a {
 	font-size: 0.8rem;
 }
 
-/* Responsiveness */
 @media (max-width: 760px) {
 	.main-grid {
 		grid-template-columns: 1fr;
@@ -351,3 +344,4 @@ a {
 		height: 100px;
 	}
 }
+
