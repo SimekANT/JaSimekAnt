@@ -1,67 +1,132 @@
 <!doctype html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O mně — Moje stránka</title>
+    <title>root@antonin:~/portfolio</title>
     <link rel="stylesheet" href="css.css">
     <meta name="author" content="Antonín Šimek">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="terminal-overlay"></div>
+    <div class="scanline"></div>
+
     <header class="site-header">
         <div class="container header-inner">
-            <h1 class="site-title">O mně</h1>
+            <h1 class="site-title">&gt; ./root/home/antonin_simek</h1>
             <nav class="nav" aria-label="Hlavní navigace">
-                <a href="#about">O mně</a>
-                <a href="#skills">Dovednosti</a>
-                <a href="#contact">Kontakt</a>
+                <a href="#about">[ /dev/about ]</a>
+                <a href="#skills">[ /bin/skills ]</a>
+                <a href="#chess">[ /usr/games/chess ]</a>
+                <a href="#contact">[ /etc/contact ]</a>
             </nav>
         </div>
     </header>
 
     <main class="container main-grid">
-        <aside class="profile">
-            <div class="avatar" aria-hidden="true">AŠ</div>
+        <aside class="profile terminal-box">
+            <div class="avatar-container">
+                <div class="avatar" aria-hidden="true">AŠ</div>
+            </div>
             <h2 class="name">Antonín Šimek</h2>
-            <p class="role">IoT, SQL, white hat / dev-ops</p>
+            <p class="role">&lt; WhiteHat /&gt; &lt; DevOps /&gt;</p>
             <ul class="meta-list">
-                <li>Lokace: Dobříš, ČR</li>
-                <li>Dostupnost: otevřen pro spolupráci</li>
+                <li><span class="prompt">$</span> loc: Dobříš, CZ</li>
+                <li><span class="prompt">$</span> status: <span class="blink">ONLINE</span></li>
             </ul>
         </aside>
 
-        <section id="about" class="card about">
-            <h3>O mně</h3>
-            <p>
-                Jsem white hat hacker a dev-ops specialista se zájmem o IoT a SQL. Rád pracuji s moderními technologiemi a neustále se učím nové věci v oblasti bezpečnosti a správy systémů. 
-                Můj přístup k práci je založen na důkladné analýze a hledání inovativních řešení, která pomáhají zlepšovat bezpečnost a efektivitu systémů. 
-                Mám zkušenosti s různými nástroji a technologiemi, které mi umožňují efektivně řešit problémy a optimalizovat procesy.
-            </p>
+        <section id="about" class="terminal-box about">
+            <div class="terminal-header">
+                <span class="circle red"></span>
+                <span class="circle yellow"></span>
+                <span class="circle green"></span>
+                <span class="title">about_me.txt</span>
+            </div>
+            <div class="terminal-content">
+                <p>
+                    <span class="prompt">user@antonin:~$</span> cat description.txt
+                </p>
+                <p>
+                    Jsem bezpečnostní expert a DevOps inženýr s vášní pro odhalování zranitelností a zabezpečení
+                    systémů. Můj svět jsou jedničky a nuly, SQL dotazy a síťový provoz.
+                </p>
+                <p>
+                    Specializuji se na penetrační testování (White Hat), zabezpečení IoT zařízení a správu serverů. Kód
+                    není jen práce, je to umění logiky a struktury. Neustále hledám nové vektory útoku, abych jim mohl
+                    předejít.
+                </p>
+            </div>
         </section>
 
-        <section id="skills" class="card skills">
-            <h3>Dovednosti</h3>
-            <ul class="skills-list">
-                <li>HTML &amp; CSS (semantika, responzivita)</li>
-                <li>Python, C#, C++, C</li>
-                <li>SQL injection, HTML injection</li>
-                <li>DevOps (Docker, CI/CD, monitoring)</li>
-            </ul>
+        <section id="chess" class="terminal-box chess" style="grid-column: 1 / -1;">
+            <div class="terminal-header">
+                <span class="circle red"></span>
+                <span class="circle yellow"></span>
+                <span class="circle green"></span>
+                <span class="title">chess_engine.exe</span>
+            </div>
+            <div class="terminal-content chess-placeholder">
+                <p><span class="prompt">root@game-server:~$</span> ./start_chess.sh</p>
+                <div class="chess-board-ui">
+                    <div class="chess-message">
+                        [ SYSTEM NOTICE ]<br>
+                        Game Module Initializing...<br>
+                        Waiting for opponent connection...<br>
+                        <span class="blink">_</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="contact" class="card contact">
-            <h3>Kontakt</h3>
-            <p>Nejrychleji mě zastihneš na e-mailu:</p>
-            <p><a href="mailto:tvuj@email.cz">simek.antonin@zak.spspb.cz</a></p>
-            <p>Pošlu ti krátký životopis a ukázky prací na vyžádání.</p>
+        <section id="skills" class="terminal-box skills">
+            <div class="terminal-header">
+                <span class="circle red"></span>
+                <span class="circle yellow"></span>
+                <span class="circle green"></span>
+                <span class="title">skills.json</span>
+            </div>
+            <div class="terminal-content">
+                <ul class="skills-list">
+                    <li><span class="prompt">&gt;</span> HTML5 &amp; CSS3 [Matrix Level]</li>
+                    <li><span class="prompt">&gt;</span> Python, C#, C++ [Back-end Core]</li>
+                    <li><span class="prompt">&gt;</span> SQL/HTML Injection Prevention</li>
+                    <li><span class="prompt">&gt;</span> Docker / CI/CD Pipelines</li>
+                    <li><span class="prompt">&gt;</span> Network Security Protocols</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="terminal-box contact">
+            <div class="terminal-header">
+                <span class="circle red"></span>
+                <span class="circle yellow"></span>
+                <span class="circle green"></span>
+                <span class="title">contact_link.sh</span>
+            </div>
+            <div class="terminal-content">
+                <p>Odesílám šifrovanou zprávu na:</p>
+                <p class="email-link"><a href="mailto:simek.antonin@zak.spspb.cz">simek.antonin@zak.spspb.cz</a></p>
+                <p class="comment">// PGP klíč na vyžádání</p>
+            </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <small>© 2026 Antonín Šimek — vytvořeno s jednoduchým HTML/CSS</small>
+            <small>Session ID: <span id="session-id">8F32-X99</span> | © 2026 Antonín Šimek</small>
         </div>
     </footer>
 
+    <script>
+        // Simple script to generate a random session ID for effect
+        document.getElementById('session-id').innerText = Math.random().toString(36).substr(2, 9).toUpperCase();
+    </script>
 </body>
+
 </html>
