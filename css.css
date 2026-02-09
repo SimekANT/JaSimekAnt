@@ -10,7 +10,7 @@ body{
 }
 .container{ max-width:1000px; margin:0 auto; padding:1rem; }
 
-.site-header{ background: #0b5cff; color: #fff; }
+.site-header{ background: #79ff0b; color: #fff; }
 .header-inner{ display:flex; align-items:center; justify-content:space-between; gap:1rem; }
 .site-title{ margin:0; font-size:1.25rem; padding:0.75rem 0; }
 .nav a{ color: #fff; text-decoration:none; margin-left:1rem; font-weight:600; }
@@ -18,7 +18,7 @@ body{
 
 .main-grid{ display:grid; grid-template-columns: 260px 1fr; gap:1rem; padding:1.25rem 0; }
 .profile{ background: #fff; padding:1rem; border-radius:8px; box-shadow:0 1px 2px rgba(0,0,0,0.04); text-align:center; }
-.avatar{ width:120px; height:120px; margin:0 auto 0.75rem; border-radius:50%; background:linear-gradient(135deg,#0b5cff 0%, #4cc9f0 100%); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:2rem; }
+.avatar{ width:120px; height:120px; margin:0 auto 0.75rem; border-radius:50%; background:linear-gradient(135deg,#64ff0b 0%, #52f04c 100%); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:2rem; }
 .name{ margin:.25rem 0 0; }
 .role{ margin:.25rem 0 0; color:#555; font-size:0.95rem; }
 .meta-list{ list-style:none; padding:0; margin:0.75rem 0 0; color:#444; font-size:0.95rem; }
@@ -28,10 +28,10 @@ body{
 .about p{ margin:0.5rem 0 0; }
 .skills-list{ list-style:disc; padding-left:1.15rem; margin:0.5rem 0 0; }
 
-.contact a{ color:#0b5cff; text-decoration:none; font-weight:600; }
+.contact a{ color:#81ff0b; text-decoration:none; font-weight:600; }
 .contact a:hover{ text-decoration:underline; }
 
-.site-footer{ margin-top:2rem; padding:1rem 0; color:#666; }
+.site-footer{ margin-top:2rem; padding:1rem 0; color:#666666; }
 .footer-inner{ text-align:center; }
 
 @media (max-width:760px){
@@ -45,5 +45,4 @@ body{
 	.nav, .site-footer{ display:none; }
 	body{ background: #fff; }
 }
-
 
