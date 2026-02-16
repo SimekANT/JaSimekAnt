@@ -7,13 +7,11 @@ fetch("profile.json")
   })
   .then(data => {
 
-    /* ===== JMÉNO ===== */
     const nameEl = document.querySelector("#name");
     if (nameEl) {
       nameEl.textContent = data.name;
     }
 
-    /* ===== SKILLS ===== */
     const skillsList = document.querySelector("#skills");
     if (skillsList && Array.isArray(data.skills)) {
       skillsList.innerHTML = "";
@@ -25,7 +23,6 @@ fetch("profile.json")
       });
     }
 
-    /* ===== INTERESTS ===== */
     const interestsContainer = document.querySelector("#interests-content");
     if (interestsContainer && Array.isArray(data.interests)) {
       interestsContainer.innerHTML = "";
