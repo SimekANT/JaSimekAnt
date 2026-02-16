@@ -249,6 +249,24 @@ body {
 	margin-bottom: 1rem;
 }
 
+.interests p {
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+.project {
+	border-left: 2px solid var(--border-color);
+	padding-left: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.project strong {
+	color: #fff;
+	text-shadow: var(--glow-text);
+}
+
+
+
 .skills-list {
 	list-style: none;
 	padding: 0;
@@ -344,4 +362,3 @@ a {
 		height: 100px;
 	}
 }
-
