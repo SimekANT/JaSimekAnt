@@ -8,12 +8,6 @@
     "Penetration Testing"
   ],
   "interests": [
-    "Cybersecurity",
-    "CTF Challenges",
-    "DevOps Automation",
-    "Chess Engines"
-  ],
-  "projects": [
     {
       "title": "Osobní portfolio",
       "description": "Dynamický web s fetch a JSON daty",
@@ -23,6 +17,21 @@
       "title": "Chess Engine",
       "description": "Vlastní šachový engine v Pythonu",
       "link": "https://github.com/antonin/chess-engine"
+    },
+    {
+      "title": "Network Scanner",
+      "description": "Python skript pro analýzu otevřených portů v síti",
+      "link": "https://github.com/antonin/network-scanner"
+    },
+    {
+      "title": "IoT Security Auditor",
+      "description": "Nástroj pro detekci zranitelností v IoT zařízeních",
+      "link": "https://github.com/antonin/iot-auditor"
+    },
+    {
+      "title": "CTF Pwn Script",
+      "description": "Automatizovaný exploit skript pro CTF soutěže",
+      "link": "https://github.com/antonin/ctf-pwn"
     }
   ]
 }
