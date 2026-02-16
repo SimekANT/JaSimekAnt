@@ -1,0 +1,16 @@
+{
+  "name": "Antonín Šimek",
+  "skills":[
+    "HTML5 & CSS3",
+    "JavaScript (ES6)",
+    "Python, C#, C++",
+    "Docker & CI/CD",
+    "Penetration Testing"
+  ],
+  "interests": [
+    "Cybersecurity",
+    "CTF Challenges",
+    "DevOps Automation",
+    "Chess Engines"
+  ]
+}
