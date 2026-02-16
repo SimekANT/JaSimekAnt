@@ -9,10 +9,10 @@ body {
 
 :root {
 	--bg-color: #0d0d0d;
-	--text-color: #00ff41;
+	--text-color: lime;
 	/* Cyber green */
 	--accent-color: #003b00;
-	--border-color: #33ff00;
+	--border-color: lime;
 	--header-bg: #1a1a1a;
 	--glow-text: 0 0 5px rgba(0, 255, 65, 0.5);
 	--font-stack: 'Fira Code', 'Courier New', Courier, monospace;
@@ -147,13 +147,13 @@ body {
 }
 
 .green {
-	background: #27c93f;
+	background: green;
 }
 
 .terminal-header .title {
 	margin-left: auto;
 	margin-right: auto;
-	color: #888;
+	color: grey;
 	font-size: 0.8rem;
 	font-family: sans-serif;
 }
@@ -186,7 +186,7 @@ body {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background: #000;
+	background: black;
 	color: var(--text-color);
 	display: flex;
 	align-items: center;
@@ -206,7 +206,7 @@ body {
 
 .role {
 	margin: 0.25rem 0 0;
-	color: #fff;
+	color: white;
 	font-size: 0.95rem;
 }
 
@@ -214,7 +214,7 @@ body {
 	list-style: none;
 	padding: 0;
 	margin: 1rem 0 0;
-	color: #ccc;
+	color: lightgrey;
 	font-size: 0.9rem;
 	text-align: left;
 }
@@ -227,7 +227,7 @@ body {
 
 /* Prompt */
 .prompt {
-	color: #fff;
+	color: white;
 	margin-right: 8px;
 	font-weight: bold;
 }
