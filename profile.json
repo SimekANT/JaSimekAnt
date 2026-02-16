@@ -12,5 +12,17 @@
     "CTF Challenges",
     "DevOps Automation",
     "Chess Engines"
+  ],
+  "projects": [
+    {
+      "title": "Osobní portfolio",
+      "description": "Dynamický web s fetch a JSON daty",
+      "link": "https://github.com/antonin/portfolio"
+    },
+    {
+      "title": "Chess Engine",
+      "description": "Vlastní šachový engine v Pythonu",
+      "link": "https://github.com/antonin/chess-engine"
+    }
   ]
 }
