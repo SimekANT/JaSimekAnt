@@ -309,15 +309,15 @@ a {
 }
 
 .comment {
-	color: #666;
+	color: darkgrey;
 	font-style: italic;
 }
 
 .site-footer {
 	margin-top: 3rem;
 	padding: 1rem 0;
-	color: #666;
-	border-top: 1px solid #333;
+	color: darkgrey;
+	border-top: 1px solid darkred;
 	text-align: center;
 	font-size: 0.8rem;
 }
